@@ -1,0 +1,192 @@
+{
+    "pizzas": [
+        {
+            "name": "Pepperoni",
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxZRtliQnf9XsVIGdlyvR5N8cyvBHbIQFXPnFD9Ov_aS_rVJAuMqyirr4fOhGYIKzS6BAC5FtXMwtfpCxWodAxoBTWwufzI0AU9uW0sfQ&s=10",
+            "sizes": [
+                26,
+                30,
+                50
+            ],
+            "types": [
+                0
+            ],
+            "category": [
+                0
+            ],
+            "price": 500,
+            "rating": 8
+        },
+        {
+            "name": "Margarita",
+            "imageUrl": "https://eataly.fr/cdn/shop/articles/pizza-margherita_d5f76160-e0d9-4c24-a0a8-22a1610d634f.jpg?v=1749545133",
+            "sizes": [
+                30,
+                50
+            ],
+            "types": [
+                0,
+                1
+            ],
+            "category": [
+                1
+            ],
+            "price": 350,
+            "rating": 7
+        },
+        {
+            "name": "Ham & Cheese ,with Pineapple",
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxZRtliQnf9XsVIGdlyvR5N8cyvBHbIQFXPnFD9Ov_aS_rVJAuMqyirr4fOhGYIKzS6BAC5FtXMwtfpCxWodAxoBTWwufzI0AU9uW0sfQ&s=10",
+            "sizes": [
+                26,
+                30,
+                50
+            ],
+            "types": [
+                0
+            ],
+            "category": [
+                0,
+                1
+            ],
+            "price": 600,
+            "rating": 5
+        },
+        {
+            "name": "Mushroom",
+            "imageUrl": "https://www.seriouseats.com/thmb/raKxsIKeWQXvmVtgcAoBtRYZ9Gw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2015__07__20150702-mushroom-truffle-pizza-1-0a0355c9cb2142d9a43cd20ee6b8b2b3.jpg",
+            "sizes": [
+                26,
+                30
+            ],
+            "types": [
+                0,
+                1
+            ],
+            "category": [
+                2
+            ],
+            "price": 500,
+            "rating": 5
+        },
+        {
+            "name": "Green",
+            "imageUrl": "https://i0.wp.com/yourchoicenutrition.com/wp-content/uploads/2019/11/9781641529747_recipes_23.jpg?fit=1024%2C1263&ssl=1",
+            "sizes": [
+                26,
+                30,
+                50
+            ],
+            "types": [
+                0
+            ],
+            "category": [
+                2
+            ],
+            "price": 500,
+            "rating": 2
+        },
+        {
+            "name": "Chicken",
+            "imageUrl": "https://i.pinimg.com/564x/a3/55/77/a3557715631077b20f9b9652733627bd.jpg",
+            "sizes": [
+                26,
+                30,
+                50
+            ],
+            "types": [
+                0,
+                1
+            ],
+            "category": [
+                0
+            ],
+            "price": 500,
+            "rating": 4
+        },
+        {
+            "name": "Vegetarian",
+            "imageUrl": "https://www.orchidsandsweettea.com/wp-content/uploads/2019/05/Veggie-Pizza-2-of-5-e1691215701129.jpg",
+            "sizes": [
+                26,
+                30,
+                50
+            ],
+            "types": [
+                0,
+                1
+            ],
+            "category": [
+                2
+            ],
+            "price": 500,
+            "rating": 5
+        },
+        {
+            "name": "Cheese",
+            "imageUrl": "https://recipesbyclare.com/cdn-cgi/image/fit=cover,width=1280,height=1280,format=auto/assets/images/1738841878615-jyb3c26p.webp",
+            "sizes": [
+                26,
+                30,
+                50
+            ],
+            "types": [
+                1
+            ],
+            "category": [
+                1
+            ],
+            "price": 300,
+            "rating": 4
+        },
+        {
+            "name": "Marinara",
+            "imageUrl": "https://mission-food.com/wp-content/uploads/2023/07/Pizza-Marinara-Featured.jpg",
+            "sizes": [
+                30
+            ],
+            "types": [
+                1
+            ],
+            "category": [
+                2
+            ],
+            "price": 300,
+            "rating": 7
+        },
+        {
+            "name": "Four Seasons",
+            "imageUrl": "https://tipbuzz.com/wp-content/uploads/Four-Seasons-Pizza-thumbnail-500x500.jpg",
+            "sizes": [
+                50
+            ],
+            "types": [
+                1
+            ],
+            "category": [
+                0,
+                1,
+                2
+            ],
+            "price": 800,
+            "rating": 8
+        },
+        {
+            "name": "Pizza with Potato",
+            "imageUrl": "https://preppykitchen.com/wp-content/uploads/2018/11/Potato-Pizza-1200x1200px-preppy-square.jpg",
+            "sizes": [
+                30,
+                50
+            ],
+            "types": [
+                0,
+                1
+            ],
+            "category": [
+                2
+            ],
+            "price": 800,
+            "rating": 1
+        }
+    ]
+}

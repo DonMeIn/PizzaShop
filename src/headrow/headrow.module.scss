@@ -1,0 +1,92 @@
+.headrowWrap {
+    display: grid;
+    margin-top: 10px;
+    grid-template-rows: 200px;
+    grid-template-columns: 100px 2fr 1fr 2fr 100px;
+    grid-template-areas: "l c se s k";
+    height: 90%;
+
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    grid-area: se;
+}
+
+.logo {
+    grid-area: l;
+
+
+    img {
+        border-radius: 10px;
+        width: 100px;
+    }
+}
+
+.categories {
+
+    grid-area: c;
+    height: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "e1 e2 e3 e4";
+    justify-content: center;
+    align-items: center;
+
+}
+
+.category {
+    height: 50px;
+    background-color: aliceblue;
+    margin: 5px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.activecategory {
+    height: 50px;
+    background-color: rgb(160, 162, 163);
+    margin: 5px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sortContainer {
+    display: flex;
+    /* Делаем элемент flex-контейнером */
+    justify-content: flex-end;
+    margin-right: 5px;
+    grid-area: s;
+}
+
+.cart {
+    grid-area: k;
+    width: 100px;
+    height: 100px;
+    position: relative;
+
+    img {
+        border-radius: 10px;
+        width: 100px;
+    }
+}
+
+.totalPrice {
+    position: absolute;
+    background-color: rgb(252, 140, 60);
+    border-radius: 50px;
+    padding: 5px;
+    color: black;
+    /* Сдвигаем вниз от верхнего края на 50% */
+    bottom: 0;
+    right: 0;
+}

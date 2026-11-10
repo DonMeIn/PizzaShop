@@ -1,0 +1,130 @@
+.pizzaItem {
+    margin: 10px;
+    width: 300px;
+    /* Фиксированная ширина элемента */
+    height: 350px;
+    border-radius: 10px;
+    display: grid;
+    background-color: rgb(243, 196, 135);
+    grid-template-rows: 220px 20px 45px 30px;
+    grid-template-areas: "i" "n" "ty" "a";
+    transition: transform 0.3s ease;
+
+    &:hover {
+        transform: scale(1.01);
+    }
+}
+
+.wrappingTypes {
+    border-radius: 20px;
+    grid-area: ty;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-rows: 20px 20px;
+    grid-template-areas:
+        "s"
+        "t";
+}
+
+.name {
+    grid-area: n;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: i;
+
+    img {
+        border-radius: 10px;
+        width: 200px;
+        height: 200px;
+    }
+}
+
+.sizes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: s;
+
+}
+
+.size {
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.sizeActive {
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    background-color: #948b8b;
+    cursor: not-allowed;
+}
+
+.types {
+    margin-top: 7px;
+    grid-area: t;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.type {
+    cursor: pointer;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.typeActive {
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #948b8b;
+    border-radius: 20px;
+    cursor: not-allowed;
+}
+
+.adding {
+    grid-area: a;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addtocart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 12px 24px;
+    background-color: #ff9800;
+    /* Яркий оранжевый */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
